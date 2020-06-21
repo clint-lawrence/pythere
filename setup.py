@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pythere",
-    version="0.1",
+    version="0.2",
     author="Clint Lawrence",
     author_email="clint.lawrence@gmail.com",
     packages=find_packages(where="src"),
@@ -11,6 +11,7 @@ setup(
     license="LICENSE",
     description="pythere is a tool to run python scripts over ssh",
     long_description=open("README.md").read(),
+    long_description_content_type='text/markdown',
     install_requires=[
         "fabric",
     ],
